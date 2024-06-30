@@ -1,0 +1,141 @@
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#name-name{
+    text-align: left;
+    margin: 40px;
+    margin-bottom: 10px;
+
+}
+
+#bio-text{
+    text-align: left;
+    margin: 20px;
+}
+
+.bio{
+    width: 850px;
+    border: 1px solid #d236e0;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+header {
+    display: flex;
+    /* width: inherit; */
+    height: 200px;
+    /* height: inherit; */
+    /* border-bottom: 2px solid #e0e0e0; */
+    padding-bottom: 15px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* margin-top: -75px; */
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d236e0;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 18px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.summary {
+    padding: 20px;
+    border: none;
+
+    /* border-bottom: 2px solid #e0e0e0; */
+}
+
+.summary h3, p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.cv-links {
+    width: 850px;
+    border: 1px solid #d236e0;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+
+.cv-links h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-links li {
+    margin: 10px 0;
+}
+
+.cv-links a {
+    color: #0066cc;
+    /* text-decoration: none; */
+}
+
+.cv-links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    /* padding: 20px; */
+    font-size: 14px;
+}
+.footer {
+
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  justify-content: center;
+
+
+}
+.edu {
+style="display: block; text-align: center; margin-top: 20px;
+
+}
+
+/* .peace, .emoji, .lightbulb, .down-arrow, .email-emoji {
+    margin-left: 5px;
+} */
